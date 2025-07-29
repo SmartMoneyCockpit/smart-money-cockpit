@@ -1,7 +1,8 @@
 import streamlit as st
 
 def main():
-    from ib_insync import *
+    from ib_insync import IB, util, Stock, Forex, Option
+
     st.set_page_config(page_title="Smart Money Cockpit", layout="wide")
     st.title("🚀 Smart Money Cockpit")
 
@@ -10,4 +11,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
